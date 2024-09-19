@@ -6,7 +6,7 @@ def bubblesort(lst):
                 lst[j], lst[j+1] = lst[j+1], lst[j]
     return lst
 
-total_vals = int(input("How many numbers are in the list? "))
+total_vals = int(input("How many numbers?: "))
 values = []
 
 for i in range(total_vals):
