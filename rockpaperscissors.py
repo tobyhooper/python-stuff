@@ -2,7 +2,7 @@ import random
 
 def rockpaperscissors(userinput):
     ranint = random.randint(1, 3)
-
+    cpu = None
     if ranint == 1:
        cpu = "rock"
     if ranint == 2:
